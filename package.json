@@ -1,0 +1,33 @@
+{
+  "name": "core_blockchain_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write --plugin=\"prettier-plugin-solidity\" \"contracts/**/*.sol\"",
+    "lint": "solhint \"contracts/**/*.sol\"",
+    "format": "npm run prettier && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnmw-7997/core_blockchain_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vnmw-7997/core_blockchain_practice/issues"
+  },
+  "homepage": "https://github.com/vnmw-7997/core_blockchain_practice#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.18",
+    "prettier": "^3.5.1",
+    "prettier-plugin-solidity": "^1.4.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0"
+  }
+}

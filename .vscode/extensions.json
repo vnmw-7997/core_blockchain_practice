@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "maratib.hardhat-developer-pack",
+        "christian-kohler.npm-intellisense",
+        "esbenp.prettier-vscode",
+        "maratib.solidity-snippets",
+        "idrabenia.solidity-solhint",
+    ]
+}
